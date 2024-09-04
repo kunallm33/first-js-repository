@@ -25,7 +25,7 @@ const another_user = {
     }
 }
 
-console.log(another_user.details.full_name.lname);
+// console.log(another_user.details.full_name.lname);
 // console.log(another_user[details[age]])
 
 const obj1 = {1:'er',2:'bn'}
@@ -38,7 +38,7 @@ const obj2 = {3:'gh',4:'as'}
 // console.log(obj4);
 
 const obj3 = {...obj1,...obj2}
-console.log(obj3);
+// console.log(obj3);
 
 let arr = [
     {
@@ -54,12 +54,37 @@ let arr = [
         email:'c@gmail.com'
     }
 ]
-console.log(arr[2].email)
-console.log(new_obj);
+// console.log(arr[2].email)
+// console.log(new_obj);
 
-console.log(Object.keys(new_obj));
-console.log(Object.values(new_obj));
+// console.log(Object.keys(new_obj));
+// console.log(Object.values(new_obj));
 
-console.log(Object.entries(new_obj));
-console.log(new_obj.hasOwnProperty('email'));
+// console.log(Object.entries(new_obj));
+// console.log(new_obj.hasOwnProperty('email'));
 
+const course = {
+    name:'javascript',
+    duration:50,
+    instructor: 'hitesh'
+
+}
+
+const {instructor: anotherOne} = course
+console.log(anotherOne);
+
+
+//API's
+{
+    'name'='neymar',
+    'gmae'='football',
+    'age'= 30
+}
+
+[
+    {},
+    {},
+    {}
+]
+// const {name} = 'name'
+// console.log(name);

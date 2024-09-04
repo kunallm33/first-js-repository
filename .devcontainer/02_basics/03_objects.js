@@ -1,4 +1,4 @@
-// objects literlas
+// objects literals
 
 newSymbol = Symbol('mysymbol')
 

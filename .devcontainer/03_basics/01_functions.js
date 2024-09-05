@@ -34,5 +34,40 @@ function login(user = 'sam'){
     return `${user} just logged in`
 }
 
-console.log(login('Ram'))
-console.log(login())
+// console.log(login('Ram'))
+// console.log(login())
+
+// Rest operators inside function parameters
+// Returns all the argumetns within a array
+
+function calculateCartPrice(val1, val2,...val){
+    return val
+}
+// console.log(calculateCartPrice(23,2,45,80));
+
+let userInfo = {
+    uname: 'raam',
+    age: 19
+}
+
+function printInfo(anyObject){
+    console.log(`username is ${anyObject.uname} and the age is ${anyObject.age}`);
+    // return anyObject
+} 
+
+printInfo(userInfo)
+
+printInfo({
+    uname:'Johhn',
+    age:19
+})
+
+let new_arr =[
+    222,33,444,55,8888
+]
+
+function arrreturn(my_array){
+    return my_array[2]
+}
+console.log(arrreturn(new_arr))
+console.log(arrreturn([222,33,444,55,8888]))

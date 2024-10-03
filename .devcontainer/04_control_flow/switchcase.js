@@ -21,7 +21,7 @@ switch (day) {
         break;
     case 7:
         console.log('sun');
-        break;
+        break;  
     
     default:
         console.log('theres no day of a week');
